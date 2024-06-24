@@ -58,7 +58,7 @@ int maxSubArraySum(vector<int>& arr, int left, int right) {
 }
 
 int main() {
-    vector<int> arr = {};
+    vector<int> arr = {5,4,-1,7,8};
     int n = arr.size();
     int max_sum = maxSubArraySum(arr, 0, n - 1);
 

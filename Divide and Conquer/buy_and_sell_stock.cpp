@@ -43,7 +43,7 @@ int maxProfit(vector<int>& prices, int left, int right) {
 }
 
 int main() {
-    vector<int> prices = {2,4,8,1,10};
+    vector<int> prices = {7,1,5,3,6,4};
     int max_profit = maxProfit(prices, 0, prices.size() - 1);
     cout << "Maximum profit is: " << max_profit << endl;
 
